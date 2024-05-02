@@ -53,7 +53,7 @@ const Header = () => {
                 className={`block w-full ${sticky ? "-py-3" : ""
                   } `}
               >
-                <Image className="rounded-full justify-center items-center" alt="brc-logo" src="/brcind/BRC-new.webp" width={80} height={80} />
+                <Image className="rounded-full justify-center items-center" alt="brc-logo" src="/BRC-new.webp" width={80} height={80} />
 
               </Link>
             </div>
