@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "BRCIND",
   description: "Personal and Corporate Insolvency Professional",
-  keywords: "Insolvency Professional, Personal Insolvency, Corporate insolvency, Bankruptsy professional"
+  keywords: "Insolvency Professional, Personal Insolvency in India, Corporate insolvency in India, Bankruptsy professional"
 };
 
 export default function RootLayout({
@@ -18,7 +18,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
       <body className={` ${inter.className}  bg-white min-h-screen`}>
       <Header />
         {children}

@@ -10,7 +10,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <div className="flex justify-center mb-8">
-              <Image className="rounded-full" alt="brc-logo" src="/brc.webp" width={300} height={300}/>
+              <Image className="rounded-full" alt="brc-logo" src="/b.gif" width={300} height={300}/>
             </div>
             <h2 className="text-4xl font-bold mb-4">Trusted Partner in Insolvency and Bankruptcy</h2>
             <p className="text-lg text-gray-700">A strategic leader with wholesome experience in asset reconstruction business.
@@ -19,10 +19,10 @@ export default function Home() {
               contracts with leading Financial Institutes of India.</p>
             <p className="m-2">Registration Number: IBBI/IPA-002/IP/N00877/2019 -2020/12806</p>
             <div className="flex flex-col w-2/3 md:w-1/4 justify-center mx-auto">
-              <button className="text-white font-bold py-2 px-4 rounded bg-bg-color-dark mt-4">
+              <button className="text-white font-bold py-2 px-4 rounded bg-[#2e7a84] mt-4">
                 <Link href='https://ibbi.gov.in/en/insolvency-professional/details?fieldid=NDA4NA%3D%3D&type=IP_Details' target="_blank">IBBI Profile</Link>
               </button>
-              <button className="text-white font-bold py-2 px-4 rounded bg-bg-color-dark mt-4">
+              <button className="text-white font-bold py-2 px-4 rounded bg-[#2e7a84] mt-4">
                 <Link href='https://in.linkedin.com/in/bishwaranjan-chatterjee-1029354' target="_blank">LinkedIn Profile</Link>
               </button>
             </div>
