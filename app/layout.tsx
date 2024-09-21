@@ -4,11 +4,13 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: "BRCIND",
-  description: "Personal and Corporate Insolvency Professional",
-  keywords: "Insolvency Professional, Personal Insolvency in India, Corporate insolvency in India, Bankruptsy professional"
+  title:
+    "BRCIND - Bishwa Ranjan Chatterjee, Personal and Corporate Insolvency Professional",
+  description:
+    "Bishwa Ranjan Chatterjee, is a Personal and Corporate Insolvency Professional Professional based in India. Offering services in Chandigarh, Delhi, Indore, Ahmedabad, Kolkata, Raipur, and Kanpur.",
+  keywords:
+    "Insolvency Professional, Personal Insolvency in India, Corporate insolvency in India, Bankruptcy professional,BRCIND Indore, Chandigarh, Delhi, Indore, Ahmedabad, Kolkata, Raipur, Kanpur,Bishwa Ranjan Chatterjee, Bishwaranjan Chatterjee ",
 };
 
 export default function RootLayout({
@@ -18,11 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${inter.className}  bg-white min-h-screen`}>
-      <Header />
+      <body className={` ${inter.className} w-full  bg-white min-h-screen`}>
+        <Header />
         {children}
-      <Footer />
-        </body>
+        <Footer />
+      </body>
     </html>
   );
 }
